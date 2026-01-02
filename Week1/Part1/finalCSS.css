@@ -1,0 +1,130 @@
+ .header-bar 
+        {
+            height: 80px;              
+            width: 100%;
+            background-color:rgb(41, 69, 110);
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 24px;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-sizing: border-box;
+        }
+
+        img.profile-pic {
+
+            width: 250px;
+            height: 250px;
+            border-radius: 125px; 
+            border: 5px solid #a287873e;  
+            box-shadow: 0 4px 10px rgba(0,0,0,0.15);    
+            object-fit: cover;
+            margin-bottom: 20px; 
+        }
+        img.Linkdein, img.instagram {
+            position: relative;
+            left: 120px;
+            width: 40px;
+            height: 40px;
+            border-radius: 12.5px;       
+            object-fit: cover;
+            transition: transform 0.2s;
+        }
+        img.Linkdein:hover, img.instagram:hover {
+            transform: scale(1.1);
+        }
+
+        .container {
+            display: flex;
+            /* flex-wrap: wrap; */
+            justify-content: center;
+            gap: 40px;
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            position: relative; 
+        }.text-area {
+            font-family: Arial, sans-serif;
+            max-width: 500px;         
+            color: #333333;
+            line-height: 1.5;     
+            text-align: left;    
+        }
+
+        .text-area p {
+            margin-bottom: 15px; 
+        }
+
+        .interest-list {
+            padding-left: 20px; 
+            margin-bottom: 20px;
+        }
+
+        .edu-table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;    }
+
+        .edu-table th, .edu-table td {
+            padding: 8px 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+
+        #social {
+            position: absolute;
+            /* display: flex; */
+            gap: 10px;
+            left: 50px;
+            top: 320px;
+        }
+        .interests {
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: -10px;
+        
+        }
+        #section-title {
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 30px;
+            margin-bottom: 0px;
+            border-bottom: 4px solid rgb(41, 69, 110);
+            display: inline-block;
+        }
+        #form{
+            background-color: aqua;
+            height: 200px;
+            width: 400px;
+        }
+        .interactive-box {
+            background-color: #f8f9fa;
+            border-left: 4px solid rgb(41, 69, 110);
+            padding: 15px;
+            margin-top: 10px;
+            border-radius: 0 5px 5px 0;
+        }
+        .interests{
+            border-bottom: 4px solid rgb(41, 69, 110);
+            display: inline-block;
+        }
+        .buttonCustom{
+           background-color: rgb(41, 69, 110); 
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .input {
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: 60%;
+        }
