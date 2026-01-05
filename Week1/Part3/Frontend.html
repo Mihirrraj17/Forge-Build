@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SetValue</title>
     <style>
-      .container {
+      .container{
         height: 100px;
         max-width: 300px;
         background-color: white;
@@ -17,7 +17,7 @@
         border-radius: 20px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
-       .container-connect {
+       .container-connect{
         height: 100px;
         max-width: 300px;
         background-color: white;
@@ -29,13 +29,13 @@
         border-radius: 20px;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
       }
-      #header {
+      #header{
         font-family: "Segoe UI", Tahoma, Verdana, sans-serif;
         color: #333;
         text-align: center;
         margin-bottom: 25px;
       }
-      button {
+      button{
         padding: 12px 24px;
         margin-left: 20px;
         border: none;
@@ -46,7 +46,7 @@
         transition: transform 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275),
         opacity 0.2s;
       }
-      button:hover {
+      button:hover{
         transform: scale(1.05);
         opacity: 0.9;
       }
@@ -54,15 +54,15 @@
       button:active {
         transform: scale(0.95);
       }
-      .btn-submit {
+      .btn-submit{
         background-color: #007bff;
         color: white;
       }
-      .btn-show {
+      .btn-show{
         background-color: #28a745;
         color: white;
       }
-      input {
+      input{
         width: 100%;
         border-radius: 5px;
         padding: 12px;
@@ -94,11 +94,12 @@
   <body bgcolor="#FAF0E6">
     <div id="hidden" class="hidden">
       <div class="container">
-        <h2 id="header">Input Saver</h2>
-        <input id="numInput" type="text" placeholder="Enter the num..." />
-        <button class="btn-submit" onclick="setValue()">Submit</button>
-        <button class="btn-show" onclick="getValue()">Show Value</button>
-        <p id="statusMessage" style="margin-top:20px; color:#555;"></p>
+        
+      <h2 id="header">Input Saver</h2>
+      <input id="numInput" type="text" placeholder="Enter the num..." />
+      <button class="btn-submit" onclick="setValue()">Submit</button>
+      <button class="btn-show" onclick="getValue()">Show Value</button>
+      <p id="statusMessage" style="margin-top:20px; color:#555;"></p>
       </div>
     </div>
     <div id="container-connect" class="container-connect">

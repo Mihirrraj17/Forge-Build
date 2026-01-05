@@ -37,7 +37,6 @@
 
         .container {
             display: flex;
-            /* flex-wrap: wrap; */
             justify-content: center;
             gap: 40px;
             max-width: 900px;
@@ -59,25 +58,8 @@
             margin-bottom: 15px; 
         }
 
-        .interest-list {
-            padding-left: 20px; 
-            margin-bottom: 20px;
-        }
-
-        .edu-table {
-            width: 100%;
-            border-collapse: collapse;
-            text-align: left;    }
-
-        .edu-table th, .edu-table td {
-            padding: 8px 0;
-            border-bottom: 1px solid #eee;
-        }
-        
-
         #social {
             position: absolute;
-            /* display: flex; */
             gap: 10px;
             left: 50px;
             top: 320px;
@@ -89,14 +71,6 @@
             margin-bottom: -10px;
         
         }
-        #section-title {
-            font-weight: bold;
-            font-size: 20px;
-            margin-top: 30px;
-            margin-bottom: 0px;
-            border-bottom: 4px solid rgb(41, 69, 110);
-            display: inline-block;
-        }
         #form{
             background-color: aqua;
             height: 200px;
@@ -104,7 +78,6 @@
         }
         .interactive-box {
             background-color: #f8f9fa;
-            border-left: 4px solid rgb(41, 69, 110);
             padding: 15px;
             margin-top: 10px;
             border-radius: 0 5px 5px 0;

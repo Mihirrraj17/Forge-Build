@@ -51,13 +51,13 @@ async function setValue() {
 
     try {
         const tx = await contract.set(valueToStore);
-        if(status) status.innerText = "Mining transaction...";
+        status.innerText = "Mining transaction...";
         await tx.wait();
-        if(status) status.innerText = `Success!`;
+        status.innerText = `Success!`;
         console.log(tx);
     } catch (error) {
         console.error(error);
-        if(status) status.innerText = "Error: See console for details.";
+        status.innerText = "Error: See console for details.";
     }
       valueToStore.value="";
 }
